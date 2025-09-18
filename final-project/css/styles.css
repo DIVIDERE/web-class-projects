@@ -29,6 +29,7 @@ body {
     overflow: hidden;
 }
 
+
 header img {
     width: 100%;
     object-fit: cover;
@@ -78,6 +79,8 @@ a {
 
 h1, h2, h3 {
     font-family: 'Warcraft', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1 {
@@ -108,8 +111,32 @@ hr {
     margin: 20px 0;
 }
 
+.hrsmall {
+    border: 1px solid #000
+}
+
 .imgs {
+    max-width: 90%;
+    height: auto;
+    border: #694f29 5px solid;
+    box-sizing: border-box;
+    margin: 10px 0;
+    display: block;
+    justify-self: center;
+}
+
+.imgs-col {
     max-width: 80%;
+    height: auto;
+    border: #694f29 5px solid;
+    box-sizing: border-box;
+    margin: 10px 0;
+    display: block;
+    justify-self: center;
+}
+
+.imgs-col-large {
+    max-width: 100%;
     height: auto;
     border: #694f29 5px solid;
     box-sizing: border-box;
@@ -129,13 +156,46 @@ hr {
     column-gap: 20px;
 }
 
+.contact {
+    text-align: left;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
 
 
 
 
 /* Class colors */
 
+.Alliance {
+    margin-top: 0px;
+    padding-top: 0px;
+    color: #0070DD;
+    text-shadow:
+       -1px -1px 0 #000,
+        1px -1px 0 #000,
+       -1px  1px 0 #000,
+        1px  1px 0 #000;
+}
+
+.Horde {
+    margin-top: 0px;
+    padding-top: 0px;
+    color: rgb(201, 0, 0);
+    text-shadow:
+       -1px -1px 0 #000,
+        1px -1px 0 #000,
+       -1px  1px 0 #000,
+        1px  1px 0 #000;
+}
+
 .warrior {
+    margin: 0px;
+    padding: 0px;
     color: #C69B6D;
     text-shadow:
        -1px -1px 0 #000,
@@ -145,6 +205,8 @@ hr {
 }
 
 .paladin {
+    margin: 0px;
+    padding: 0px;
     color: #F48CBA;
     text-shadow:
        -1px -1px 0 #000,
@@ -154,6 +216,8 @@ hr {
 }
 
 .shaman {
+    margin: 0px;
+    padding: 0px;
     color: #0070DD;
     text-shadow:
        -1px -1px 0 #000,
@@ -163,6 +227,8 @@ hr {
 }
 
 .hunter {
+    margin: 0px;
+    padding: 0px;
     color: #AAD372;
     text-shadow:
        -1px -1px 0 #000,
@@ -172,6 +238,8 @@ hr {
 }
 
 .rogue {
+    margin: 0px;
+    padding: 0px;
     color: #FFF468;
     text-shadow:
        -1px -1px 0 #000,
@@ -181,6 +249,8 @@ hr {
 }
 
 .priest {
+    margin: 0px;
+    padding: 0px;
     color: #FFFFFF;
     text-shadow:
        -1px -1px 0 #000,
@@ -190,6 +260,8 @@ hr {
 }
 
 .mage {
+    margin: 0px;
+    padding: 0px;
     color: #3FC7EB;
     text-shadow:
        -1px -1px 0 #000,
@@ -199,6 +271,8 @@ hr {
 }
 
 .warlock {
+    margin: 0px;
+    padding: 0px;
     color: #8788EE;
     text-shadow:
        -1px -1px 0 #000,
@@ -208,6 +282,8 @@ hr {
 }
 
 .druid {
+    margin: 0px;
+    padding: 0px;
     color: #FF7C0A;
     text-shadow:
        -1px -1px 0 #000,
@@ -236,6 +312,14 @@ hr {
         display: flex;
         font-size: 15px;
     }
+
+    .imgs {
+        max-width: 80%;
+    }
+
+    .contact {
+    text-align: center;
+}
 }
 
 
@@ -262,16 +346,24 @@ nav ul li a {
     text-decoration: none;
 }
 
-    .two-column {
+.imgs {
+    max-width: 50%;
+}
+
+.two-column {
     column-count: 2;
 }
 
-    .multi-column {
+.multi-column {
     column-count: 3;
 }
 
-    .multi-column section {
-        break-inside: avoid;
-    }
+.multi-column section {
+    break-inside: avoid;
+}
+
+.contact {
+    text-align: center;
+}
 
 }
