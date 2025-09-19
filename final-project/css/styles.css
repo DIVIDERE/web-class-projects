@@ -120,7 +120,7 @@ hr {
     height: auto;
     border: #694f29 5px solid;
     box-sizing: border-box;
-    margin: 10px 0;
+    margin: 20px auto;
     display: block;
     justify-self: center;
 }
@@ -130,7 +130,7 @@ hr {
     height: auto;
     border: #694f29 5px solid;
     box-sizing: border-box;
-    margin: 10px 0;
+    margin: 20px auto;
     display: block;
     justify-self: center;
 }
@@ -140,7 +140,7 @@ hr {
     height: auto;
     border: #694f29 5px solid;
     box-sizing: border-box;
-    margin: 10px 0;
+    margin: 20px auto;
     display: block;
     justify-self: center;
 }
